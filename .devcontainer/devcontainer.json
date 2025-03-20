@@ -1,0 +1,25 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/jsburckhardt/devcontainer-features/uv:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"ms-vscode.vscode-copilot-vision",
+				"ms-vscode.vscode-websearchforcopilot",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"ms-vscode.vscode-typescript-next",
+				"ms-vscode.js-debug"
+			],
+			"settings": {
+				"editor.formatOnSave": true,
+				"typescript.updateImportsOnFileMove.enabled": "always",
+				"javascript.updateImportsOnFileMove.enabled": "always"
+			}
+		}
+	},
+	"postCreateCommand": "npm install"
+}

@@ -398,3 +398,30 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# TypeScript specific
+dist/
+coverage/
+*.tsbuildinfo
+.eslintcache
+.DS_Store
+
+# NPM
+package-Lock.json
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.env
+.env.test
+.env.local
+
+# IDE specific
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
